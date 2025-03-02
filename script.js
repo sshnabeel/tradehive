@@ -13,10 +13,6 @@ const products = [
 ];
 
 const productList = document.getElementById("product-list");
-<<<<<<< HEAD
-
-products.forEach((product) => {
-=======
 const wishlistDisplay = document.getElementById("wishlist");
 
 // Load wishlist from localStorage
@@ -40,18 +36,12 @@ function updateWishlist() {
 
 // Generate products dynamically
 products.forEach((product, index) => {
->>>>>>> cac34e4 (initial commit)
   const productDiv = document.createElement("div");
   productDiv.classList.add("product");
   productDiv.innerHTML = `
         <img src="${product.image}" alt="${product.name}">
         <h3>${product.name}</h3>
         <p>${product.price}</p>
-<<<<<<< HEAD
-    `;
-  productList.appendChild(productDiv);
-});
-=======
         <button class="save-for-later" data-id="${index}">Save for Later</button>
     `;
   productList.appendChild(productDiv);
@@ -78,4 +68,3 @@ function removeFromWishlist(index) {
 
 // Initialize wishlist on page load
 updateWishlist();
->>>>>>> cac34e4 (initial commit)

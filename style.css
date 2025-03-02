@@ -22,10 +22,6 @@ body {
     width: 100%;
     height: auto;
 }
-<<<<<<< HEAD
-=======
-
-
 #wishlist {
     border: 1px solid #ddd;
     padding: 10px;
@@ -53,4 +49,3 @@ body {
 .save-for-later:hover {
     background-color: #218838;
 }
->>>>>>> cac34e4 (initial commit)
