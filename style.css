@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+<<<<<<< HEAD
+=======
+
+
+#wishlist {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 300px;
+    margin: auto;
+    background: #f9f9f9;
+}
+
+#wishlist p {
+    margin: 5px 0;
+}
+
+.save-for-later {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.save-for-later:hover {
+    background-color: #218838;
+}
+>>>>>>> cac34e4 (initial commit)
