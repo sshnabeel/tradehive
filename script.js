@@ -25,7 +25,8 @@ function updateWishlist() {
       ? wishlist
           .map(
             (item, index) =>
-              `<p>${item.name} - ${item.price} <button onclick="removeFromWishlist(${index})">Remove</button></p>`
+              `<p>${item.name} - ${item.price} 
+            <button onclick="removeFromWishlist(${index})">Remove</button></p>`
           )
           .join("")
       : "<p>No items saved</p>";
